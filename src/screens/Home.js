@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, Image } from "react-native";
 import React from "react";
 import Menu from "../component/Menu";
+import Course from "./Course";
 import { useFonts, WorkSans_400Regular } from "@expo-google-fonts/work-sans";
 import { Nunito_700Bold } from "@expo-google-fonts/nunito";
 import AppLoading from "expo-app-loading";
@@ -18,7 +19,20 @@ const Home = (props) => {
     "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. ";
 
   return (
+
+    
     <View style={styles.mainContainer}>
+      <View style={styles.menuStyle}>
+        <View style={styles.lineStyle}></View>
+        <Course/>
+        {/* <View
+          style={[
+            styles.lineStyle,
+            {
+              marginVertical: 10,
+            },
+          ]}></View> */}
+      </View>
       <View style={styles.homeTop}>
         <Image
           style={styles.headerImage}
@@ -26,7 +40,7 @@ const Home = (props) => {
           source={require("../../assets/logo.jpeg")}
         />
 
-        <Text style={styles.mainHeader}>Welcome to</Text>
+        <Text style={styles.mainHeader}>Welcome to college</Text>
         <Text
           style={[
             styles.mainHeader,

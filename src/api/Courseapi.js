@@ -1,69 +1,13 @@
 const Courses = [
   {
     id: "1",
-    title: "Web Development",
-    image: require("../../assets/course/web.jpg"),
-    description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor adipiscing elit. ",
-    course1: "html",
-    course2: "css",
-    course3: "javascript",
-    price: 5000,
+    title: "My Holidays",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdvxEWa6jViKIMkhR2GVvo_jEg5pFf_ms1-cj47PpJbUms-57E6v6uJ1mnd-KmKzc6tEQ&usqp=CAU",
   },
   {
     id: "2",
-    title: "Graphic Designing ",
-    image: require("../../assets/course/graphic.jpg"),
-    description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor adipiscing elit. ",
-    course1: "Photoshop",
-    course2: "Figma",
-    course3: "Adobe XD",
-    price: 3000,
-  },
-  {
-    id: "3",
-    title: "Coding Fundamentals",
-    image: require("../../assets/course/coding.jpg"),
-    description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor adipiscing elit. ",
-    course1: "JavaScript",
-    course2: "Algorithm",
-    course3: "Data Structure",
-    price: 1000,
-  },
-  {
-    id: "4",
-    title: "Ethical Hacking",
-    image: require("../../assets/course/eth.jpg"),
-    description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor adipiscing elit. ",
-    course1: "Testing",
-    course2: "Exploitation",
-    course3: "Linux OS",
-    price: 6000,
-  },
-  {
-    id: "5",
-    title: "Web Development",
-    image: require("../../assets/course/web.jpg"),
-    description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor adipiscing elit. ",
-    course1: "html",
-    course2: "css",
-    course3: "javascript",
-    price: 5000,
-  },
-  {
-    id: "6",
-    title: "Web Development",
-    image: require("../../assets/course/web.jpg"),
-    description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor adipiscing elit. ",
-    course1: "html",
-    course2: "css",
-    course3: "javascript",
-    price: 5000,
+    title: "My Task",
+    image: "https://e7.pngegg.com/pngimages/913/762/png-clipart-three-hardbound-books-book-books-with-transparency-background-horse-glass-thumbnail.png",
   },
 ];
 

@@ -28,27 +28,12 @@ const Course = ({ navigation }) => {
       <View style={styles.mainContainer}>
         <View style={styles.courseContainer}>
           <View>
+            <Text style={styles.text}>{item.title}</Text>
             <Image
               style={styles.cardImage}
               source={item.image}
               resizeMode="contain"
             />
-          </View>
-
-          <Text style={styles.mainHeader}>{item.title}</Text>
-
-          <Text style={styles.description}>{item.description}</Text>
-
-          <View style={styles.buttonContainer}>
-            <TouchableOpacity
-              style={styles.buttonStyle}
-              onPress={() =>
-                navigation.navigate("CourseDetails", {
-                  courseId: item.id,
-                })
-              }>
-              <Text style={styles.buttonText}> course Details </Text>
-            </TouchableOpacity>
           </View>
         </View>
       </View>
@@ -69,13 +54,13 @@ const styles = StyleSheet.create({
     width: "100%",
     height: undefined,
     aspectRatio: 1,
+    marginTop:20
   },
   mainContainer: {
     paddingHorizontal: 20,
   },
   courseContainer: {
     padding: 30,
-    backgroundColor: "rgba(255, 255, 255, 0.90)",
     textAlign: "center",
     borderRadius: 5,
     shadowColor: "grey",
@@ -84,6 +69,7 @@ const styles = StyleSheet.create({
     shadowRadius: 8,
     elevation: 8,
     marginVertical: 30,
+    position:"relative",
   },
   mainHeader: {
     fontSize: 22,
@@ -122,6 +108,14 @@ const styles = StyleSheet.create({
     fontFamily: "WorkSans_400Regular",
     textTransform: "capitalize",
   },
+  text:{
+    fontSize:12,
+    color:"black",
+    fontFamily: "WorkSans_400Regular",
+    position: "absolute",
+    top: 0,
+    left: 0,
+  }
 });
 
 export default Course;

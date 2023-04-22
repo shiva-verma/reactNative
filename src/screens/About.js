@@ -23,7 +23,7 @@ const About = () => {
 
   return (
     <View style={styles.aboutContainer}>
-      <Text style={styles.mainHeader}> Vinod bahadur thapa </Text>
+      <Text style={styles.mainHeader}> Sandeep choudhary </Text>
       <Text style={styles.paraStyle}> I am a full stack developer 😀 </Text>
 
       <View>
@@ -50,7 +50,7 @@ const About = () => {
         <TouchableOpacity
           style={styles.buttonStyle}
           onPress={() =>
-            Linking.openURL("https://www.instagram.com/thapatechnical/")
+            Linking.openURL("")
           }>
           <Image
             style={styles.iconStyle}
@@ -64,7 +64,7 @@ const About = () => {
           style={styles.buttonStyle}
           onPress={() =>
             Linking.openURL(
-              "https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+              ""
             )
           }>
           <Image
@@ -77,7 +77,7 @@ const About = () => {
 
         <TouchableOpacity
           style={styles.buttonStyle}
-          onPress={() => Linking.openURL("https://discord.gg/AN8ThRBXtY")}>
+          onPress={() => Linking.openURL("")}>
           <Image
             style={styles.iconStyle}
             source={{
